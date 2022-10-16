@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-    [SerializeField] float upForce = 1f;
-    [SerializeField] float sideForce = 1f;
+    [SerializeField] float upForce = 0.1f;
+    [SerializeField] float sideForce = 0.1f;
 
     private void Start()
     {
